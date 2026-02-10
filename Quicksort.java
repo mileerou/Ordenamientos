@@ -11,7 +11,7 @@ public class Quicksort {
         int indicePivote = new Random().nextInt(indiceMayor - indiceMenor) + indiceMenor;
         int pivote = arreglo[indicePivote];
         intercambiar(arreglo, indicePivote, indiceMayor);
-
+ 
         int pi = indiceMenor;
         int pd = indiceMayor;
 
