@@ -2,7 +2,7 @@
 
 public class Gnomesort <T extends Comparable<T>> {
 
-    public static <T extends Comparable<T>> void ordenar(T[] arreglo) {
+    public static <T extends Comparable<T>> void gnomeSort(T[] arreglo) {
         int indice = 0;
         while (indice < arreglo.length) {
             if (indice == 0 || arreglo[indice].compareTo(arreglo[indice - 1]) >= 0) {
