@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Quicksort {
     
-    private static void quickSort(Integer[] arreglo, int indiceMenor, int indiceMayor) {
+    public static void quickSort(Integer[] arreglo, int indiceMenor, int indiceMayor) {
         
         if (indiceMenor >= indiceMayor) {
             return;

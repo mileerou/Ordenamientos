@@ -2,7 +2,7 @@
 
 public class Insertionsort {
 
-    private static void insertionSort(Integer[] arreglo) {
+    public static void insertionSort(Integer[] arreglo) {
         for (int i = 1; i < arreglo.length; i++) {
             Integer valorActual = arreglo[i];
             int j = i - 1;
